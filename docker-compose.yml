@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  lotto:
+    image: ${DOCKER_REGISTRY}lotto
+    build:
+      context: .
+      dockerfile: Lotto\Dockerfile
